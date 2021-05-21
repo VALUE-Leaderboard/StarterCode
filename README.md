@@ -1,4 +1,3 @@
-# StarterCode
-Starter Code for VALUE benchmark
+# StarterCode for VALUE Benchmark
 
 Coming soon....
