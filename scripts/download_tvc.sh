@@ -50,6 +50,7 @@ fi
 
 # raw_data (for evaluation and inference)
 TVBLOB='https://datarelease.blob.core.windows.net/value-leaderboard/tv_tasks'
+TVC='https://raw.githubusercontent.com/jayleicn/TVCaption/master/data/'
 
-wget -nc $TVBLOB/tvc_val_release.jsonl -P $DOWNLOAD/txt_db
+wget -nc $TVC/tvc_val_release.jsonl -P $DOWNLOAD/txt_db
 wget -nc $TVBLOB/tvc_test_release.jsonl -P $DOWNLOAD/txt_db
