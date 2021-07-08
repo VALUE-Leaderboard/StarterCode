@@ -52,5 +52,5 @@ fi
 VATEXCBLOB='https://datarelease.blob.core.windows.net/value-leaderboard/vatex_en_c'
 # vatex_en_c raw data (evaluation and inference)
 for SPLIT in 'test_public' 'test_private'; do
-    wget -nc $VATEXCBLOB/vatex_en_c_${SPLIT}_release.jsonl -O $ANN/vatex_en_c/vatex_en_c_${SPLIT}_release.jsonl
+    wget -nc $VATEXCBLOB/vatex_en_c_${SPLIT}_release.jsonl -O $DOWNLOAD/txt_db/vatex_en_c_${SPLIT}_release.jsonl
 done
