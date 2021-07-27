@@ -31,7 +31,7 @@
             "task": "violin",
             "name": "violin_video_sub_train",
             "sub_txt_db": "/txt/violin_subtitles.db",
-            "vfeat_db": "/video/violin_all",
+            "vfeat_db": "/video/violin",
             "query_txt_db": "/txt/violin_train.db",
             "batch_size": 4,
             "ratio": 3
@@ -50,7 +50,7 @@
             "name": "how2r_video_sub_train",
             "sub_txt_db": "/txt/how2_subtitles.db",
             "vfeat_db": "/video/how2",
-            "query_txt_db": "/txt/how2r_train_clean.db",
+            "query_txt_db": "/txt/how2r_train.db",
             "batch_size": 32,
             "ratio": 2
         },
@@ -129,7 +129,7 @@
             "task": "violin",
             "name": "violin_video_sub_val",
             "sub_txt_db": "/txt/violin_subtitles.db",
-            "vfeat_db": "/video/violin_all",
+            "vfeat_db": "/video/violin",
             "batch_size": 10,
             "query_txt_db": "/txt/violin_val.db"
         },
@@ -170,7 +170,7 @@
             "name": "how2r_video_sub_val",
             "sub_txt_db": "/txt/how2_subtitles.db",
             "vfeat_db": "/video/how2",
-            "query_txt_db": "/txt/how2r_val_clean_1k.db",
+            "query_txt_db": "/txt/how2r_val_1k.db",
             "batch_size": 32
         },
         {
@@ -191,7 +191,7 @@
         }
     ],
     "compressed_db": false,
-    "model_config": "config/hero_finetune.json",
+    "model_config": "config/model_config/hero_finetune.json",
     "checkpoint": "/pretrain/pretrain-tv-init.bin",
     "load_partial_pretrained": true,
     "skip_layer_loading": true,

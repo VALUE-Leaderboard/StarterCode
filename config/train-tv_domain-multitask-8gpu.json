@@ -31,7 +31,7 @@
             "task": "violin",
             "name": "violin_video_sub_train",
             "sub_txt_db": "/data/release/txt_db_v2/violin_subtitles.db",
-            "vfeat_db": "/data/release/video_db/violin_all",
+            "vfeat_db": "/data/release/video_db/violin",
             "query_txt_db": "/data/release/txt_db_v2/violin_train.db",
             "batch_size": 4,
             "ratio": 3
@@ -75,7 +75,7 @@
             "task": "violin",
             "name": "violin_video_sub_val",
             "sub_txt_db": "/data/release/txt_db_v2/violin_subtitles.db",
-            "vfeat_db": "/data/release/video_db/violin_all",
+            "vfeat_db": "/data/release/video_db/violin",
             "batch_size": 10,
             "query_txt_db": "/data/release/txt_db_v2/violin_val.db"
         },
@@ -89,7 +89,7 @@
         }
     ],
     "compressed_db": false,
-    "model_config": "config/hero_finetune.json",
+    "model_config": "config/model_config/hero_finetune.json",
     "checkpoint": "/pretrain/hero-tv-ht100.pt",
     "output_dir": "/storage/MT_PT_FT/tv-domain_multi-task_default",
     "eval_with_query_type": true,
