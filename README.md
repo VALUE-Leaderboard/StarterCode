@@ -1,3 +1,4 @@
+
 # StarterCode for VALUE Benchmark
 This is the starter code for VALUE Benchmark [[website]](https://value-benchmark.github.io/), [[paper]](https://arxiv.org/abs/2106.04632).
 
@@ -10,6 +11,8 @@ Before dive into the baseline models mentioned above, please make yourself famil
 
 The code in this repo are copied/modified from open-source implementations made available by [HERO](https://github.com/linjieli222/HERO).
 
+## Updates
+- [7/27/2021] Please re-download `violin_test_private.db` at [this link](https://datarelease.blob.core.windows.net/value-leaderboard/starter_code_data/txt_db/violin_test_private.db.tar). The previous version is not consistent with our release, sorry for your inconvenience.
 
 ## Requirements
 We use the provided Docker image in HERO for easier reproduction. Please follow [Requirements in HERO](https://github.com/linjieli222/HERO#requirements) to set up the environment. 
