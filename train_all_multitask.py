@@ -49,15 +49,14 @@ from utils.const import VFEAT_DIM, MAX_FRM_SEQ_LEN
 from utils.basic_utils import save_jsonl, save_json
 from config.config import shared_configs
 from eval_vcmr import validate_full_vcmr
-from train_vcmr import validate_vcmr
-from train_vr import validate_vr
+from train_retrieval import validate_vcmr, validate_vr
 from eval_vr import validate_full_vr
 
 from eval.tvc import TvcEval
 from eval.vatex_en_c import Vatex_en_c_Eval
 from eval.yc2c import Yc2cEvalMicro
-from train_caption_multitask import validate_single_dset as validate_caption
-from train_videoQA import validate_videoQA, validate_violin
+from train_captioning import validate_single_dset as validate_caption
+from train_qa import validate_videoQA, validate_violin
         
 
 def main(opts):
