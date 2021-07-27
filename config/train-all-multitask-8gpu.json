@@ -3,99 +3,99 @@
         {
             "task": "vcmr",
             "name": "tvr_video_sub_train",
-            "sub_txt_db": "/data/release/txt_db_v2/tv_subtitles.db",
-            "vfeat_db": "/data/release/video_db/tv",
-            "query_txt_db": "/data/release/txt_db_v2/tvr_train.db",
+            "sub_txt_db": "/txt/tv_subtitles.db",
+            "vfeat_db": "/video/tv",
+            "query_txt_db": "/txt/tvr_train.db",
             "batch_size": 32,
             "ratio": 5
         },
         {
             "task": "videoCap",
             "name": "tvc_video_sub_train",
-            "sub_txt_db": "/data/release/txt_db_v2/tv_subtitles.db",
-            "vfeat_db": "/data/release/video_db/tv",
-            "cap_txt_db": ["/data/release/txt_db_v2/tvc_train.db"],
+            "sub_txt_db": "/txt/tv_subtitles.db",
+            "vfeat_db": "/video/tv",
+            "cap_txt_db": ["/txt/tvc_train.db"],
             "batch_size": 4,
             "ratio": 5
         },
         {
             "task": "videoQA",
             "name": "tvqa_video_sub_train",
-            "sub_txt_db": "/data/release/txt_db_v2/tv_subtitles.db",
-            "vfeat_db": "/data/release/video_db/tv",
-            "query_txt_db": "/data/release/txt_db_v2/tvqa_train.db",
+            "sub_txt_db": "/txt/tv_subtitles.db",
+            "vfeat_db": "/video/tv",
+            "query_txt_db": "/txt/tvqa_train.db",
             "batch_size": 4,
             "ratio": 5
         },
         {
             "task": "violin",
             "name": "violin_video_sub_train",
-            "sub_txt_db": "/data/release/txt_db_v2/violin_subtitles.db",
-            "vfeat_db": "/data/release/video_db/violin_all",
-            "query_txt_db": "/data/release/txt_db_v2/violin_train.db",
+            "sub_txt_db": "/txt/violin_subtitles.db",
+            "vfeat_db": "/video/violin_all",
+            "query_txt_db": "/txt/violin_train.db",
             "batch_size": 4,
             "ratio": 3
         },
         {
             "task": "videoQA",
             "name": "vlep_video_sub_train",
-            "sub_txt_db": "/data/release/txt_db_v2/vlep_subtitles.db/",
-            "vfeat_db": "/data/release/video_db/vlep",
-            "query_txt_db": "/data/release/txt_db_v2/vlep_train.db",
+            "sub_txt_db": "/txt/vlep_subtitles.db/",
+            "vfeat_db": "/video/vlep",
+            "query_txt_db": "/txt/vlep_train.db",
             "batch_size": 4,
             "ratio": 1
         },
         {
             "task": "vcmr",
             "name": "how2r_video_sub_train",
-            "sub_txt_db": "/data/release/txt_db_v2/how2_subtitles.db",
-            "vfeat_db": "/data/release/video_db/how2",
-            "query_txt_db": "/data/release/txt_db_v2/how2r_train_clean.db",
+            "sub_txt_db": "/txt/how2_subtitles.db",
+            "vfeat_db": "/video/how2",
+            "query_txt_db": "/txt/how2r_train_clean.db",
             "batch_size": 32,
             "ratio": 2
         },
         {
             "task": "vr",
             "name": "vatex_en_r_video_sub_train",
-            "sub_txt_db": "/data/release/txt_db_v2/vatex_subtitles.db/",
-            "vfeat_db": "/data/release/video_db/vatex",
-            "query_txt_db": "/data/release/txt_db_v2/vatex_en_r_train.db",
+            "sub_txt_db": "/txt/vatex_subtitles.db/",
+            "vfeat_db": "/video/vatex",
+            "query_txt_db": "/txt/vatex_en_r_train.db",
             "ratio": 6,
             "batch_size": 64
         },
         {
             "task": "vr",
             "name": "yc2r_video_sub_train",
-            "sub_txt_db": "/data/release/txt_db_v2/yc2_subtitles.db/",
-            "vfeat_db": "/data/release/video_db/yc2",
-            "query_txt_db": "/data/release/txt_db_v2/yc2r_train.db",
+            "sub_txt_db": "/txt/yc2_subtitles.db/",
+            "vfeat_db": "/video/yc2",
+            "query_txt_db": "/txt/yc2r_train.db",
             "ratio": 2,
             "batch_size": 48
         },
         {
             "task": "videoCap",
             "name": "vatex_en_c_video_sub_train",
-            "sub_txt_db": "/data/release/txt_db_v2/vatex_subtitles.db",
-            "vfeat_db": "/data/release/video_db/vatex",
-            "cap_txt_db": ["/data/release/txt_db_v2/vatex_en_r_train.db", "/data/release/txt_db_v2/vatex_en_r_val.db"],
+            "sub_txt_db": "/txt/vatex_subtitles.db",
+            "vfeat_db": "/video/vatex",
+            "cap_txt_db": ["/txt/vatex_en_r_train.db", "/txt/vatex_en_r_val.db"],
             "batch_size": 128,
             "ratio": 2
         },
         {
             "task": "videoCap",
             "name": "yc2c_video_sub_train",
-            "sub_txt_db": "/data/release/txt_db_v2/yc2_subtitles.db",
-            "vfeat_db": "/data/release/video_db/yc2",
-            "cap_txt_db": ["/data/release/txt_db_v2/yc2r_train.db"],
+            "sub_txt_db": "/txt/yc2_subtitles.db",
+            "vfeat_db": "/video/yc2",
+            "cap_txt_db": ["/txt/yc2r_train.db"],
             "batch_size": 16,
             "ratio": 2
         },
         {
             "task": "videoQA",
             "name": "how2qa_video_sub_train",
-            "sub_txt_db": "/data/release/txt_db_v2/how2_subtitles.db",
-            "vfeat_db": "/data/release/video_db/how2",
-            "query_txt_db": "/data/release/txt_db_v2/how2qa_train.db",
+            "sub_txt_db": "/txt/how2_subtitles.db",
+            "vfeat_db": "/video/how2",
+            "query_txt_db": "/txt/how2qa_train.db",
             "batch_size": 4,
             "ratio": 1
         }
@@ -104,89 +104,89 @@
         {
             "task": "vcmr",
             "name": "tvr_video_sub_val",
-            "sub_txt_db": "/data/release/txt_db_v2/tv_subtitles.db",
-            "vfeat_db": "/data/release/video_db/tv",
+            "sub_txt_db": "/txt/tv_subtitles.db",
+            "vfeat_db": "/video/tv",
             "batch_size": 20,
-            "query_txt_db": "/data/release/txt_db_v2/tvr_val.db"
+            "query_txt_db": "/txt/tvr_val.db"
         },
         {
             "task": "videoCap",
             "name": "tvc_video_sub_val",
-            "sub_txt_db": "/data/release/txt_db_v2/tv_subtitles.db",
-            "vfeat_db": "/data/release/video_db/tv",
+            "sub_txt_db": "/txt/tv_subtitles.db",
+            "vfeat_db": "/video/tv",
             "batch_size": 8,
-            "gt_anno": "/data/release/txt_db_v2/tvc_val_release.jsonl"
+            "gt_anno": "/txt/tvc_val_release.jsonl"
         },
         {
             "task": "videoQA",
             "name": "tvqa_video_sub_val",
-            "sub_txt_db": "/data/release/txt_db_v2/tv_subtitles.db",
-            "vfeat_db": "/data/release/video_db/tv",
+            "sub_txt_db": "/txt/tv_subtitles.db",
+            "vfeat_db": "/video/tv",
             "batch_size": 10,
-            "query_txt_db": "/data/release/txt_db_v2/tvqa_val.db"
+            "query_txt_db": "/txt/tvqa_val.db"
         },
         {
             "task": "violin",
             "name": "violin_video_sub_val",
-            "sub_txt_db": "/data/release/txt_db_v2/violin_subtitles.db",
-            "vfeat_db": "/data/release/video_db/violin_all",
+            "sub_txt_db": "/txt/violin_subtitles.db",
+            "vfeat_db": "/video/violin_all",
             "batch_size": 10,
-            "query_txt_db": "/data/release/txt_db_v2/violin_val.db"
+            "query_txt_db": "/txt/violin_val.db"
         },
         {
             "task": "videoQA",
             "name": "vlep_video_sub_dev",
-            "sub_txt_db": "/data/release/txt_db_v2/vlep_subtitles.db/",
-            "vfeat_db": "/data/release/video_db/vlep",
+            "sub_txt_db": "/txt/vlep_subtitles.db/",
+            "vfeat_db": "/video/vlep",
             "batch_size": 10,
-            "query_txt_db": "/data/release/txt_db_v2/vlep_dev.db"
+            "query_txt_db": "/txt/vlep_dev.db"
         },
         {
             "task": "videoCap",
             "name": "vatex_en_c_video_sub_val",
-            "sub_txt_db": "/data/release/txt_db_v2/vatex_subtitles.db",
-            "vfeat_db": "/data/release/video_db/vatex",
+            "sub_txt_db": "/txt/vatex_subtitles.db",
+            "vfeat_db": "/video/vatex",
             "batch_size": 128,
-            "gt_anno": "/data/release/txt_db_v2/vatex_en_c_test_public_release.jsonl"
+            "gt_anno": "/txt/vatex_en_c_test_public_release.jsonl"
         },
         {
             "task": "videoCap",
             "name": "yc2c_video_sub_val",
-            "sub_txt_db": "/data/release/txt_db_v2/yc2_subtitles.db",
-            "vfeat_db": "/data/release/video_db/yc2",
+            "sub_txt_db": "/txt/yc2_subtitles.db",
+            "vfeat_db": "/video/yc2",
             "batch_size": 16,
-            "gt_anno": "/data/release/txt_db_v2/yc2c_val_release.jsonl"
+            "gt_anno": "/txt/yc2c_val_release.jsonl"
         },
         {
             "task": "videoQA",
             "name": "how2qa_video_sub_val",
-            "sub_txt_db": "/data/release/txt_db_v2/how2_subtitles.db",
-            "vfeat_db": "/data/release/video_db/how2",
-            "query_txt_db": "/data/release/txt_db_v2/how2qa_val.db",
+            "sub_txt_db": "/txt/how2_subtitles.db",
+            "vfeat_db": "/video/how2",
+            "query_txt_db": "/txt/how2qa_val.db",
             "batch_size": 10
         },
         {
             "task": "vcmr",
             "name": "how2r_video_sub_val",
-            "sub_txt_db": "/data/release/txt_db_v2/how2_subtitles.db",
-            "vfeat_db": "/data/release/video_db/how2",
-            "query_txt_db": "/data/release/txt_db_v2/how2r_val_clean_1k.db",
+            "sub_txt_db": "/txt/how2_subtitles.db",
+            "vfeat_db": "/video/how2",
+            "query_txt_db": "/txt/how2r_val_clean_1k.db",
             "batch_size": 32
         },
         {
             "task": "vr",
             "name": "vatex_en_r_video_sub_val",
-            "sub_txt_db": "/data/release/txt_db_v2/vatex_subtitles.db/",
-            "vfeat_db": "/data/release/video_db/vatex",
-            "query_txt_db": "/data/release/txt_db_v2/vatex_en_r_val.db",
+            "sub_txt_db": "/txt/vatex_subtitles.db/",
+            "vfeat_db": "/video/vatex",
+            "query_txt_db": "/txt/vatex_en_r_val.db",
             "batch_size": 32
         },
         {
             "task": "vr",
             "name": "yc2r_video_sub_val",
-            "sub_txt_db": "/data/release/txt_db_v2/yc2_subtitles.db/",
-            "vfeat_db": "/data/release/video_db/yc2",
-            "query_txt_db": "/data/release/txt_db_v2/yc2r_val.db",
+            "sub_txt_db": "/txt/yc2_subtitles.db/",
+            "vfeat_db": "/video/yc2",
+            "query_txt_db": "/txt/yc2r_val.db",
             "batch_size": 32
         }
     ],
