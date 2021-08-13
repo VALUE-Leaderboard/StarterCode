@@ -304,10 +304,10 @@ If you wish to perform pre-training, please refer to instructions in [HERO](http
 ## Citation
 If you find this code useful for your research, please consider citing:
 ```bibtex
-@article{li2021value,
+@inproceedings{li2021value,
   title={VALUE: A Multi-Task Benchmark for Video-and-Language Understanding Evaluation},
   author={Li, Linjie and Lei, Jie and Gan, Zhe and Yu, Licheng and Chen, Yen-Chun and Pillai, Rohit and Cheng, Yu and Zhou, Luowei and Wang, Xin Eric and Wang, William Yang and others},
-  journal={arXiv preprint arXiv:2106.04632},
+  booktitle={35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks},
   year={2021}
 }
 
